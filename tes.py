@@ -116,6 +116,9 @@ kategori = st.sidebar.radio("Pilih Kategori", ["Beranda","Makanan", "Minuman", "
 if kategori == "Beranda":
     col1, col2, col3 = st.columns([1,7,1])
     with col2:
+        st.image("welcome.png")
+    col1, col2, col3 = st.columns([1,7,1])
+    with col2:
         st.image("Asset/welcome.PNG")
 
 if kategori == "Makanan":
